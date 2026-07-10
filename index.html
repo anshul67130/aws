@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Website</title>
+</head>
+<body>
+    <h1>Welcome to My DevOps Website</h1>
+    <div class="info">
+        <p><strong>Name:</strong> Anshul</p>
+        <p><strong>College:</strong> Guru Jambheshwar University of Science & Technology, Hisar</p>
+        <p><strong>Branch:</strong> Computer Science & Engineering</p>
+        <p><strong>Email:</strong> akofficial67130@gmail.com</p>
+    </div>
+    <p class="date">Current Date: <span id="currentDate"></span></p>
+    <p style="margin-top: 30px; font-size: 0.9em;">Deployed on AWS EC2 with Nginx</p>
+
+    <script>
+        const date = new Date();
+        document.getElementById('currentDate').textContent = date.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
