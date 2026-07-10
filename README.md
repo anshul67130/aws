@@ -3,7 +3,7 @@
 ## Step 1. Launch an Ubuntu EC2 instance
 
 Signup to you aws console and under services select EC2 EC2\>Instances\>Launch an Instance 
-![[pictures/1.png]]
+![[1.png]]
 
 | Configuration | Selection |
 | - | - |
